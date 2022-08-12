@@ -2,13 +2,15 @@
     --title-color: #212121;
     --text-color: #757575;
     --button-hf-color: #2196F3;
---button-color: #FFFFFF;
+--button-color: #212121;
 --button-bg-color: #F5F4FA;
+--button-ind-color: #2196F3;
+
 
 
 }
 
-.buttons > button {
+.button-second {
 font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 16px;
@@ -18,11 +20,9 @@ color: var(--button-color);
 background-color: var(--button-bg-color);
 }
 
-button:focus {
+.button-second:hover,:focus {
     background-color: var(--button-hf-color)}
-button:hover {
-    background-color: var(--button-hf-color)
-}
+
 .elements > h2 {
     font-family: 'Roboto' sans-serif;
     font-weight: 700;
@@ -37,3 +37,53 @@ button:hover {
     line-height: 1.8;
     letter-spacing: 0.03em;
     color: var(--text-color);}
+    .main {background-color: black;}
+    .title-main {font-family: 'Roboto' sans-serif;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.4;
+        letter-spacing: 0.06em;
+        color: #FFFFFF;}
+        .order {font-family: 'Roboto' sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 1.9;
+            letter-spacing: 0.06em;
+            color: #FFFFFF;
+        background-color: #2196F3;}
+        .title-second {font-family: 'Roboto' sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 1.1;
+            color: #212121;}
+        .text-title{
+            font-family: 'Roboto' sans-serif;
+            font-size: 14px;
+            line-height: 1.7;
+            letter-spacing: 0.03em;
+            color: #757575;}
+            .title-wwd {font-family: 'Roboto' sans-serif;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 1.2;
+                letter-spacing: 0.03em;
+                color: #212121;}
+                .title-team {font-family: 'Roboto' sans-serif;
+                    font-weight: 700;
+                    font-size: 36px;
+                    line-height: 1.2;
+                    letter-spacing: 0.03em;
+                    color: #212121;}
+.our-team{font-family: 'Roboto' sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #212121;}
+    .about-team{font-family: 'Roboto' sans-serif;
+        font-size: 16px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        color: #757575;}
+    .contacts:hover,:focus{color: #2196F3;}
