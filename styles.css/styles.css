@@ -7,10 +7,13 @@ body {font-family: Roboto, sans-serif; color: var(--logo-span);}
     --txt-about: #757575;
     --adress-color: #FFFFFF;
     --buttons-bg: #F5F4FA;
+    --background-color: #2F303A;
+    --link-active: red;
 }
 
 .site-nav a:hover, 
 .site-nav a:focus {color: var(--buttons-links)}
+.site-nav a:active {color: var(--link-active)}
 
 .auth-nav a:hover,
 .auth-nav a:focus {
@@ -19,7 +22,8 @@ body {font-family: Roboto, sans-serif; color: var(--logo-span);}
 
 .button-list button:hover,
 .button-list button:focus {
-    background-color: var(--buttons-links)
+    background-color: var(--buttons-links);
+    color: var(--adress-color) 
 }
 
 
@@ -47,7 +51,8 @@ line-height: 1.2;}
 .site-nav {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.2;}
+    line-height: 1.2;
+    }
 
 .auth-nav a{
     font-weight: 500;
@@ -141,3 +146,6 @@ line-height: 1.2;}
 }
 .adress-list a:hover,
 .adress-list a:focus {color: var(--buttons-links);}
+
+.main-title,
+.footer {background-color: var(--background-color);}
