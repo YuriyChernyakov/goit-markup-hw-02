@@ -48,7 +48,7 @@ line-height: 1.2;}
     line-height: 1.2;}
 .logo-footer span {color:var(--buttons-links) ;}
 
-.site-nav {
+.site-nav a{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
